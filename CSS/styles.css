@@ -1,0 +1,29 @@
+/*Attribute that I want to change*/
+body {
+    background-color: #EDE4E0;
+}
+
+/*change all hr to different color*/
+hr {
+    /*need to set default to none so we can override the default styles*/
+    background-color: #EDE4E0;
+    border-style: none;
+    border-width: 5px;
+    border-top-style: dashed;
+    border-color: #9F8772;
+    height: 0px;
+    width: 5%;
+    /*% -> automatic change size on different screen*/
+}
+
+h1 {
+    color: #665A48;
+}
+
+h3 {
+    color: #665A48;
+}
+
+h4 {
+    color: #665A48;
+}
