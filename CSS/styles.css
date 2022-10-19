@@ -1,8 +1,17 @@
 /*Attribute that I want to change*/
 body {
     background-color: #EDE4E0;
+    margin:0;
+    text-align: center;
+}
+.intro_name{
+    font-family: 'Amatic SC', cursive,Arial, Helvetica, sans-serif;
 }
 
+.education {
+    margin: 0;
+    text-align: none;
+}
 /*change all hr to different color*/
 hr {
     /*need to set default to none so we can override the default styles*/
@@ -26,4 +35,8 @@ h3 {
 
 h4 {
     color: #665A48;
+}
+
+link{
+    text-decoration: none ;
 }
