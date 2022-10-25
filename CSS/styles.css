@@ -1,8 +1,36 @@
 /*Attribute that I want to change*/
 body {
-    background-color: #EDE4E0;
+    background-color: #000000;
     margin:0;
     text-align: center;
+    color:#F7F7F7;
+}
+.top-container{
+    background-color: #F5B553;
+    text-align: left;
+}
+.icon_ontop{
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 8%;
+    height: auto;
+}
+.table_of_content{
+    font-family: 'Source Code Pro', monospace;
+    padding-top: 1.5rem;
+    font-size: 1.3em;
+}
+.table_link{
+    padding-right: 2rem;
+    color:#854836;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
 }
 .intro_name{
     font-family: 'Amatic SC', cursive,Arial, Helvetica, sans-serif;
@@ -26,15 +54,15 @@ hr {
 }
 
 h1 {
-    color: #665A48;
+    color: #F5B553;
 }
 
 h3 {
-    color: #665A48;
+    color: #854836;
 }
 
 h4 {
-    color: #665A48;
+    color: #854836;
 }
 
 link{
