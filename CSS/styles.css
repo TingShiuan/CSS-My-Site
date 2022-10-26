@@ -10,7 +10,7 @@ body {
 /*change all hr to different color*/
 hr {
     /*need to set default to none so we can override the default styles*/
-    background-color: #EDE4E0;
+    background-color: #000000;
     border-style: none;
     border-width: 5px;
     border-top-style: dashed;
@@ -45,25 +45,34 @@ h4 {
 /*Top section*/
 .top-container {
     background-color: #F5B553;
-    text-align: left;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    position: relative;
 }
 
 .icon_ontop {
-    padding-top: 0.5rem;
-    padding-left: 0.5rem;
-    padding-bottom: 0.5rem;
-    width: 8%;
-    height: auto;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    width: 10%;
+    height: 10%;
+    display: flex;
+    align-items: center;
 }
 
-.table_of_content {
+table.table_of_content {
     font-family: 'Source Code Pro', monospace;
-    padding-top: 1.5rem;
-    font-size: 1.3em;
+    font-size: 120%;
+    align-items: right;
+    margin-left: auto;
+    margin-right: 0px;
+    text-align: right;
+    width: 50%;
 }
+
 
 .table_link {
-    padding-right: 2rem;
     color: #854836;
 }
 
@@ -81,22 +90,42 @@ a:active {
 
 
 /*middle*/
-.middle-container{
-    padding-bottom: 50px;
+.middle-container {
+    padding-top: 20px;
 }
+
 .intro_name {
     font-family: 'Amatic SC', cursive, Arial, Helvetica, sans-serif;
 }
 
-.education {
-    margin: 0;
-    text-align: none;
+.bio {
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: left;
+}
+
+table {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+}
+
+.contact_input {
+    text-align: left;
+    margin-left: 30%;
+    margin-right: 20%;
 }
 
 /*Bottom*/
-.footer-link{
+.bottom-container {
+    padding-top: 50px;
+}
+
+.footer-link {
     border-bottom: 50px;
 }
+
 /*Icon info*/
 .icons8-linkedin {
     display: inline-block;

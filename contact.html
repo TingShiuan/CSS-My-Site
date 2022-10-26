@@ -4,44 +4,87 @@
 <head>
     <meta charset="utf-8">
     <title>Tiffany's Contact Page</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <!--creat favicon by using favicon.io generator-->
+    <link rel="icon" href="image/favicon_io/favicon-32x32.png">
 </head>
 
 <body>
+    <div class="top-container">
+        <a href="index.html"><img class="icon_ontop" alt="Tiff.com"
+                src="image/favicon_io/android-chrome-512x512.png"></a>
+        <table class="table_of_content">
+            <td><a class="table_link" href="bio.html">About Me</a></td>
+            <td><a class="table_link" href="Documentation/resume.pdf">Resume</a></td>
+            <td><a class="table_link" href="contact.html">Contact Me</a></td>
+        </table>
+    </div>
     <h1>Ting-Shiuan Chen</h1>
+    <br>
+    <img src="image/icons8-call-me-skin-type-2-96.png" alt="call_me">
     <br>
     <h2>My Contact information</h2>
     <p>
-    <ul>
-        <li><strong>(Primary) Email:</strong> chen89@uw.edu</li>
-        <a class="btn" href="mailto:chen89@uw.edu">CONTACT ME By mail</a>
-        <li><strong>Linkedin:</strong> <a href="https://www.linkedin.com/in/ting-shiuan-chen/">link</a></li>
-        <li><strong>Phone Number:</strong> not prefer</li>
-    </ul>
+    <table class="contact_info" style="text-align:left;
+    margin-left: auto;margin-right: auto; width: fit-content;">
+        <tr>
+            <td><strong>(Primary) Email:</strong> </td>
+            <td>chen89@uw.edu
+                <a class="btn" href="mailto:chen89@uw.edu">CONTACT ME By mail</a>
+            </td>
+        </tr>
+        <tr>
+            <td><strong>Phone Number:</strong>
+            <td>
+                not prefer</td>
+            </td>
+        </tr>
+    </table>
+    <h3>or Click Below Icon</h3>
+    <a class="footer-link" href="https://www.linkedin.com/in/ting-shiuan-chen/">
+        <div class="icons8-linkedin"></div>
+    </a>
+    <a class="footer-link" href="https://github.com/TingShiuan">
+        <div class="icons8-github"></div>
+    </a>
+    <a class="footer-link" href="https://sites.google.com/uw.edu/ting-shiuan-chen/about"><img
+            src="image/icons8-portfolio-96.png" width="50px" height="50px" alt="portfolio_img"></a>
+    <p>
     </p>
     <hr>
-    <h4>Contact Me</h4>
-    <p>
-        <!--"action": where to react to after enter submit-->
-    <form action="mailto:chen89@uw.edu" method="post" enctype="text/plain">
-        <label>Your Name:</label>
-        <input type="text" name="yourName" value=""><br>
-        <label>Your Email:</label>
-        <input type="email" name="yourEmail" value=""><br>
-        <label>Your Phone Number:</label>
-        <input type="tel" name="YourPhoneNumber" value=""><br>
-        <fieldset>
-            <legend><strong>Prefer Contact Method:</strong></legend>
-            <label><input type="radio" name="radio" value="Email">Email</label>
-            <label><input type="radio" name="radio" value="Phone Number">Phone Number</label>
-            <label><input type="radio" name="radio" value="Both">Both</label>
-        </fieldset>
-        <br>
-        <label>Your Message:</label><br>
-        <textarea name="yourMessage" value="" rows="10" col="30"></textarea><br>
-        <input type="submit" name="" value="Submit">
-        <br>
-        <a href="index.html">Back to My Site</a>
-    </form>
+    <h1>Contact Me</h1>
+    <div class="contact_input" style="margin-right:auto;margin-left: auto;width: fit-content;">
+        <p>
+            <!--"action": where to react to after enter submit-->
+        <form action="mailto:chen89@uw.edu" method="post" enctype="text/plain">
+            <label>Your Name:</label>
+            <input type="text" name="yourName" value=""><br>
+            <label>Your Email:</label>
+            <input type="email" name="yourEmail" value=""><br>
+            <label>Your Phone Number:</label>
+            <input type="tel" name="YourPhoneNumber" value=""><br>
+            <fieldset class="Prefer_contact" style="width:fit-content">
+                <legend><strong>Prefer Contact Method:</strong></legend>
+                <label><input type="radio" name="radio" value="Email">Email</label>
+                <label><input type="radio" name="radio" value="Phone Number">Phone Number</label>
+                <label><input type="radio" name="radio" value="Both">Both</label>
+            </fieldset>
+            <br>
+            <div class="message_box" style="text-align: center;">
+                <label>Your Message:</label><br>
+                <textarea name="yourMessage" value="" rows="10" col="30"></textarea><br>
+                <input type="submit" name="" value="Submit">
+            </div>
+
+            <br>
+        </form>
+    </div>
+    <div class="bottom-container">
+        <a class="buttom" href="index.html">Back to My Site</a>
+        <p>
+            <font size="-1">©2022 Designed & Built by Tiffany Chen</font>
+        </p>
+    </div>
     </p>
 </body>
 
